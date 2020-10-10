@@ -1,0 +1,167 @@
+body {
+    font: 20px Lato, sans-serif;
+    line-height: 1.8;
+     
+  }
+  p, li {
+    font-size: 16px;
+    font-weight: 300;
+    text-align:justify
+  }
+  .margin {
+  margin-bottom: 45px;
+  
+  }
+  .bg-1 { 
+    background-color: #DFEAEF; /* light blue is #ACDEF6 */
+    color: black;
+  }
+  .bg-2 { 
+    background-color:  white; /* Dark Blue */
+    color: black;
+    text-align:justify;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+    color: black;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+          color: black;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .bg-1 {
+    padding-top: 0px;
+  } 
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+  
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c;
+  } 
+  
+  #headerImg {
+  padding: 0px;
+  
+  }
+  
+  
+  #headerText {
+  font-size: 18px;
+  }
+  
+  .threeImages img {
+  display: inline;
+  float: left
+  }
+  
+  h2 {
+  
+  text-align: left;
+  
+  }
+  
+  ul {
+  
+  text-align: left;
+  }
+  
+  .btn {
+  
+  background-color:  white;
+  border-color:  #DFEAEF;
+  color: #777;
+  border: 2px;
+  font-weight: 200;
+  }
+  
+  .btn:hover  {
+  
+  background-color: #DFEAEF;
+  border-color:  2px solid #E0DEEF;
+  border: 2px;
+  color: white;
+  font-weight: 400;
+  }
+  
+  #ps:hover  {
+  background-color: #DFEAEF;
+  
+  }
+  
+  #all:hover {
+  background-color: #DFEAEF;
+  }
+  
+  #footer{
+  padding: 10px;
+  
+  }
+  
+  #headerImg {
+  width:80%; 
+  
+  }
+  
+  
+    #teeandmoVid {
+  
+    width: 100%; 
+  
+   }
+  
+  
+  
+  @media screen and (max-width: 480px) {
+  #headerText {
+     font-size: 15px;
+  }
+  
+   #headerImg {
+  
+    width:90%; 
+  
+   }
+    #teeandmoVid {
+  
+    width: 95%; 
+  
+   }
+  
+  }
+  
+  
+  
+  
+  div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

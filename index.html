@@ -7,121 +7,91 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Andrew's Site</title>
   </head>
-  <body class="">
- 
-    <nav class="navbar navbar-expand-sm bg-light justify-content-end">
-        <ul class="navbar-nav ">
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-expand-sm ">
+    
+        <ul class="nav navbar-nav navbar-center ">
           <li class="nav-item">
-            <a class="nav-link" href="#">Photography</a>
+            <a class="nav-link" href="#photo">Photography</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Art<a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Creative Writing</a>
+            <a class="nav-link" href="#art">Art<a>
           </li>
         </ul>
+      </div>
       </nav>
-      <br>
+      <section class="container-fluid">
+     
+        <div class="container-fluid bg-1 text-center">
+          <div class = "row"> 
+            <div class = "col-sm-3" style="text-align: center"> </div>
+            <div class = "col-sm-6" style="text-align: center"> 
+                <img src="" class="img-responsive" id="headerImg" style="display:inline; padding: 50px">
+                <p class="text-center" id="headerText"><strong>Andrew Araya</strong>. <br> Photographer | Artist | Dungeon Master  </p>
+            </div>
+            <div class = "col-sm-3" style="text-align: center;"> </div>
+          </div>
+        </div>
+      </section>
 
- 
+      <section class="container-fluid">
+        <div class="container-fluid bg-3 text-center" id="art">    
+          <h3 class="margin"> Art </h3>
+          <div class = "row"> 
+          <div class = "col-sm-3"> </div>
+            <div class = "col-sm-6">
+        
+              <div class="gallery">
+                <a target="_blank" href="./Art/boy.jpg">
+                  <img src="./Art/boy.jpg" alt="boy" width="600" height="400">
+                </a>
+                <div class="desc"></div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="./Art/girl.png">
+                  <img src="./Art/girl.png" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc"></div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="./Art/girl2.jpg">
+                  <img src="./Art/girl2.jpg" alt="girl2" width="600" height="400">
+                </a>
+                <div class="desc"></div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="./Art/stairs.jpg">
+                  <img src="./Art/stairs.jpg" alt="stairs" width="600" height="400">
+                </a>
+                <div class="desc"></div>
+              </div>
+             
+               
+      </section>
 
-  
-  
-     <h1 class="text-center"><strong>My Art Work</strong></h1>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-      <div class="carousel-inner"> 
-
-
+      <section class="container">
+        <section class="container-fluid">
+          <div class="container-fluid bg-3 text-center" id="photo">    
+            <h3 class="margin"> Photography </h3>
+            <div class = "row"> 
+            <div class = "col-sm-3"> </div>
+              <div class = "col-sm-6">
+          
+               
+      </section>
       
- <div class="carousel-item">
-  <div class="overlay-image" class="img-responsive" style="background-image:url(Art/girl.png);"></div>
-   <div class="container">
-     <h1></h1>
-     <p> </p>
-     <a href="#" class=""> <strong class="text-warning"></strong></a>
-
-   </div>
-
- </div>  
-  
- <div class="carousel-item active ">
-  <div class="overlay-image"style="background-image:url(Art/map.png);"></div>
-   <div class="container">
-     <h1></h1>
-     <p></p>
-     <a href="#" class=""></a>
-
-   </div>
-
- </div>
- <div class="carousel-item">
-  <div class="overlay-image" style="background-image:url(Art/girl2.jpg)"></div>
-   <div class="container">
-     <h1></h1>
-     <p> </p>
-     <a href="#" class=""><strong class=""></strong></a>
-
-   </div>
-
- </div>    
- 
-</div>
-<a href="#myCarousel" class="carousel-control-prev" role="button"
-data-slide="prev">
-<span class="sr-only">Previous</span>
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-</a>
-<a href="#myCarousel" class="carousel-control-next" role="button"
-data-slide="next">
-<span class="sr-only">Previous</span>
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-</a>
-
-</div>
-
-<style>
-    .carousel-item {
-      height: 32rem;
-      background: none;
-      color: gold;
-      position: relative;
-      
-    }
-    .container {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      padding-bottom: 50px;
-
-    }
-
-    .overlay-image {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      top:0;
-      background-position: center;
-      background-size: cover;
-      opacity: 0.5;
-    }
-</style>
    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
   </body>
 
   <footer>
